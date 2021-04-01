@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Assignment 8</title>
+</head>
+
+<body>
+    <div id="Main-Container">
+        
+        <div id="header">
+            <h1 id="mainHeading">freeCodeCamp Survey Form</h1>
+            <p id="TagLine">Thank you for taking the time to help us improve the platform</p>
+        </div>
+
+        <div id="Form-Container">
+            <form>
+                <div id="BasicInfo">
+                    <label for="name" class="fontSize">Name</label><br>
+                    <input class="Input-Box" type="text" name="name" id="name" placeholder="Enter your name" required />
+                    <br>
+                    <label for="email" class="fontSize">Email</label><br>
+                    <input class="Input-Box" type="email" name="email" id="email" placeholder="Enter your email"
+                        required /> <br>
+                    <label for="age" class="fontSize">Age</label><br>
+                    <input class="Input-Box" type="number" name="age" id="age" placeholder="Enter your age" required />
+                </div>
+                <div class="SelectBox">
+                    <p class="fontSize">Which option best describes your current role?</p>
+                    <select class="Input-Box" required>
+                        <option disabled selected>Select current role</option>
+                        <option value="student">Student</option>
+                        <option value="fulljob">Full Time Job</option>
+                        <option value="fulllearner">Full Time Learner</option>
+                        <option value="NoPrefer">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="RecommendOptions">
+                    <p class="fontSize">Would you recommend freeCodeCamp to a friend?</p>
+                    <table>
+                        <tr>
+                            <td><label><input name="recommendation" value="definitely" type="radio"
+                                        checked />Definitely</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input name="recommendation" value="Maybe" type="radio" />Maybe</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input name="recommendation" value="Not sure" type="radio" />Not sure</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="SelectBox">
+                    <p class="fontSize">What is your favorite feature of freeCodeCamp?</p>
+                    <select class="Input-Box" required>
+                        <option disabled selected>Select an option</option>
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="openSource">Open Source</option>
+                    </select>
+                </div>
+
+                <div id="CheckBox">
+                    <p class="fontSize">What would you like to see improved?</p>
+                    <table>
+                        <tr>
+                            <td><label><input type="checkbox" name="FE-Projects">Front-end Projects</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="BE-Projects">Back-end Projects</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="DataVisualization">Data Visualization</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="Challenges">Challenges</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="OSCommunity">Open Source Community</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="GitterHR">Gitter help rooms</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="Videos">Videos</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="CityMeet">City Meetups</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="Wiki">Wiki</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="Forum">Forum</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="AdditionalCourses">Additional Courses</label></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="textArea">
+                    <label class="fontSize">Any comments or suggestions?</label><br>
+                    <textarea name="comments" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+                </div>
+
+                <input class="SubmitBtn Input-Box" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

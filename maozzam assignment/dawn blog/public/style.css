@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+@font-face {font-family: "WTCOurBodoniW01-Regular"; src: url("//db.onlinewebfonts.com/t/cd5744bfc481abc53f255be69d2946bd.eot"); src: url("//db.onlinewebfonts.com/t/cd5744bfc481abc53f255be69d2946bd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cd5744bfc481abc53f255be69d2946bd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cd5744bfc481abc53f255be69d2946bd.woff") format("woff"), url("//db.onlinewebfonts.com/t/cd5744bfc481abc53f255be69d2946bd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cd5744bfc481abc53f255be69d2946bd.svg#WTCOurBodoniW01-Regular") format("svg");
+ }
+.logo{
+background-color: black;
+width: 100%;
+height: 80px;
+padding-top:5px ;
+padding-bottom: 25px;
+}
+.dot{
+    color: red;
+    font-size: 32px;
+    font-weight: 900;
+}
+.sizeP{
+font-size: 90%;
+padding-left: 10px;
+}
+.headingH1{
+    padding-left: 5px;
+}
+.lowerlogo{
+background-color: #F7734F;
+width: 100%;
+height: 80px;
+padding-top:5px ;
+padding-bottom: 30px;
+}
+.lowerli{
+    font-size: 90%;
+padding-left: 45px;
+}
+.divoverflow{
+    margin-top: 5px;
+    background-color: #d8d9da;
+    width: 320px;
+    height: 500px;
+    overflow:auto;
+    margin-left: 12px;
+    position: sticky;
+    top: 0;
+  }
+  #sideP{
+        padding-left: 14px;
+        font-size: 13px;
+        color: black;
+        padding-top: 12px;
+  }
+  .sidebar{
+
+  }
+a{
+    font-size: small    ;
+    color: black;
+}
+ul{
+    padding-left: 25px;
+    font-size: small;
+}
+.li{
+    list-style: none;
+    color:#856F7B;
+    content: "\2022";
+    padding-bottom: 12px;
+    padding-top: 12px;
+    
+}
+.li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.innerdiv{
+    margin-left: 28%;
+    margin-top: -450px;
+    margin-right: 250px;
+
+}
+h2{
+    font-weight: bold;
+    font-size: 29px!important;
+    color: black;
+    text-shadow: 1px 0px 1px black;
+}
+.dataP{
+    color: black;
+    font-size: small;
+    padding-bottom: 14px;
+}
+.paraP{
+    color: black;
+    font-size: large;
+    line-height: 27.6px;
+    padding-bottom: 14px;  
+}
+.frameSet{
+    padding-top: 10px;
+    margin-left: 80px;
+}
+hr{
+border-color: red;
+}

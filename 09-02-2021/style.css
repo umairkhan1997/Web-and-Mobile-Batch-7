@@ -1,0 +1,6 @@
+ul#first li>a{
+    color: green;
+}
+ul{
+    background-color: aqua;
+}

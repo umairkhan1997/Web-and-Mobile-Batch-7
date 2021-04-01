@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height: 100vh;
+     background:linear-gradient(to top right, #4EB697, #669df3);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+.mainContainer{
+   height: 90vh;
+   /* background-color: white; */
+   /* opacity: 0.5; */
+   width: 80%;
+   background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+   border-radius: 20px;
+   z-index: 4;
+   backdrop-filter: blur(300px);
+   display: flex;
+}
+
+.secDiv,.thrdDiv{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right ,rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+}
+
+.secDiv{
+ 
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.thrdDiv{
+  
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.childOne{
+    flex:1;
+    /* opacity: 0.9; */
+    background: linear-gradient(to bottom right ,rgba(255,255,255,0.4),rgba(255,255,255,0.2));
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+}
+
+.childTwo{
+    flex:3;
+    background-color: transparent;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 0rem 5rem;
+}
+
+.adver {
+    background: linear-gradient(to right top, #65dfc9, #669df3);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    width: 80%;
+    align-self: center;
+  }
+  
+  .adver img {
+      width: 100px;
+      height: 100px;
+    position: absolute;
+    top: 3%;
+    right: 10%;
+  }
+  .adver h2 {
+    width: 40%;
+    color: white;
+    font-weight: 600;
+  }
+  .secpara{
+      margin:4px;
+      color:#669df3;
+  }

@@ -1,0 +1,53 @@
+.example{
+    width: 200px;
+    margin:auto
+}
+.paraOne{
+    text-align: center;
+}
+
+p.one {
+    -moz-border-image: url('image/black-circle.png')
+    11 11 11 11 stretch;
+    -webkit-border-image: url('image/black-circle.png')
+    11 11 11 11 stretch;
+    border-image: url('image/black-circle.png')
+    11 11 11 11 stretch;}
+    p.two {
+    -moz-border-image: url('image/black-circle.png')
+    11 11 11 11 round;
+    -webkit-border-image: url('image/black-circle.png')
+    11 11 11 11 round;
+    border-image: url('image/black-circle.png')
+    11 11 11 11 round;}
+
+
+    .paratwo{
+        width: 50px;
+        height: 200px;
+border: 1px solid red;
+        border-radius:50px, 20px, 20px, 50px;
+    }
+ul{
+
+    list-style-image: url("image/home.png");
+}
+
+li {
+   
+    width: 200px;
+}
+
+.div1{
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.div2{
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 100px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,35 @@
+/* *{
+ background-color:aqua ;   
+} */
+
+h1{
+  color: blue;  
+}
+
+.fontStyle{
+    font-size: large;
+}
+
+#pStyle{
+    color: crimson;
+}
+#h1Stl{
+    color: red;
+}
+
+.h1stl{
+    color: rebeccapurple;
+}
+
+
+h3{
+    color: seagreen !important ;
+    background-color: tomato;
+}
+
+
+
+h3{
+    color: sienna;
+background-color: rgba(200, 221, 127, alpha);
+}

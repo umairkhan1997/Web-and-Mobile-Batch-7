@@ -1,0 +1,440 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins',sans-serif;
+}
+#container{
+  background: rgba(0,0,0,0.8);
+  height: 40px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+#logo{
+    color: #e9e9e9;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#logo:hover{
+  cursor: pointer;
+  color: #faf8f8;
+}
+
+.search{
+  color: #e9e9e9;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.search:hover{
+  cursor: pointer;
+  color: #faf8f8;
+}
+
+#navLinks{
+  display: flex;
+  justify-content: space-around;
+  width: 980px;
+  margin: auto;
+  line-height: 40px;
+}
+#navLinks a{
+  text-decoration: none;
+  color: #e9e9e9;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#navLinks a:hover{
+  color: #ffffff;
+}
+
+#alert{
+  background: #0071E3;
+  margin-top: 40px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+#evaluate{
+  font-size: 13px;
+  color: #f5f5f7;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+#evaluate:hover{
+  text-decoration: underline;
+}
+
+#ShopBar{
+  background-color: #f0f0f0;
+  padding: 10px 0px;
+  font-size: 13px;
+  width: 100%;
+  color: rgb(88, 88, 88);
+  text-align: center;
+  text-decoration: none;
+}
+#ShopBar a{
+  color: #0071E3;
+  text-decoration: none;
+}
+
+#ShopBar a:hover{
+  text-decoration: underline;
+}
+/* Header End */
+
+#First-Banner{
+  text-align: center;
+  background-image: url(Images/first-banner.jpg);
+  width: 100%;
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.img-Details{
+  padding-top: 50px;
+}
+
+#First-Banner h1{
+  font-size: 60px;
+  font-weight: 500;
+}
+
+#First-Banner h2{
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: -20px;
+}
+
+.PriceDetail p{
+  color: #888888;
+}
+
+span{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.Learn-Buy{
+  margin-top: 20px;
+}
+
+.Learn-Buy a{
+  font-size:18px;
+  text-decoration: none;
+  color: #0071E3;
+}
+
+.Learn-Buy a:hover{
+  text-decoration: underline;
+}
+
+
+/* first banner end */
+
+#Second-Banner{
+  text-align: center;
+  background-image: url(Images/second-banner.jpg);
+  width: 100%;
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+#Second-Banner h1{
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+
+#Second-Banner h2{
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: -20px;
+  color: white;
+}
+#Second-Banner img{
+  width: 100%;
+}
+
+/* second banner end */
+
+
+#Third-Banner{
+  text-align: center;
+  background-image: url(Images/ipad-air.jpg);
+  width: 100%;
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+#Third-Banner h1{
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+}
+
+#Third-Banner h2{
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -20px;
+  color: black;
+}
+#Third-Banner img{
+  width: 100%;
+}
+
+/* third banner end */
+
+#Fourth-Banner{
+  text-align: center;
+  background-image: url(Images/Banner-4.jpg);
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 5px 10px 5px;
+}
+
+#Fourth-Banner h1{
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.sideimg-Details{
+  padding: 50px;
+  margin: 0px 100px;
+}
+
+.MoreDetail{
+  color: #f5f5f7;
+}
+
+.Sections{
+  display: flex;
+  padding: 0px 5px;
+}
+
+/* Fourth banner end */
+
+#Fifth-Banner{
+  text-align: center;
+  background-image: url(Images/Banner-5.jpg);
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 5px 10px 5px;
+}
+
+#Fifth-Banner h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.img-Details h1>i{
+  font-size: 35px;
+  padding-right: 3px;
+}
+
+/* Fifth banner end */
+
+#Sixth-Banner{
+  text-align: center;
+  background-image: url(Images/sixth-banner.jpg);
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 5px 10px 5px;
+}
+
+#Sixth-Banner h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  line-height: 50px;
+}
+
+label{
+  font-size: 12px;
+  color: rgba(214, 47, 6, 0.835);
+}
+
+.img-Details h1>i{
+  font-size: 35px;
+  padding-right: 3px;
+}
+
+.para{
+  font-size: 22px;
+}
+
+.para p>sup{
+  font-size: 12px;
+}
+
+.top-details{
+  padding-top: 0px;
+}
+
+.padding-details{
+  margin-top: 0px;
+}
+
+/* Sixth banner end */
+
+#Seven-Banner{
+  text-align: center;
+  background-image: url(Images/seven-banner.jpg);
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 5px 10px 5px;
+}
+
+.padding-details a>sup{
+      font-size: 12px;
+}
+
+.img-Details h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* Seven banner end */
+
+#Eight-Banner{
+  text-align: center;
+  background-image: url(Images/eight-banner.jpg);
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 5px 10px 5px;
+}
+
+.Yellow{
+  color: rgb(226, 191, 35);
+}
+
+.Yellow h2{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.Learn-Buy a>sup{
+  font-size: 12px;
+}
+
+/* Eight banner end */
+
+#Nine-Banner{
+  text-align: center;
+  background-image: url(Images/nine-banner.jpg);
+  width: 50%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 5px 10px 5px;
+}
+
+.color h1{
+  color: white;
+}
+
+.pa-position{
+  position: relative;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Nine banner end */
+
+footer{
+  background-color: #f0f0f0;
+  padding: 10px 40px;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #86868b;
+}
+
+#footerDiv{
+  margin: auto;
+  width: 70%;
+}
+
+#Orderlist{
+  padding: 15px 0px;
+}
+#Orderlist ol>li{
+  padding-bottom: 5px;
+}
+
+#UnorderList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#UnorderList li{
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.link td>a{
+  text-decoration: none;
+  color: #515154;
+}
+
+#FP-Tag{
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+#FP-Tag a{
+  color: #0071E3;
+  text-decoration: none;
+}
+
+#FP-Tag a:hover{
+  text-decoration: underline;
+}
+
+#lastDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+#lastDiv p>a{
+  color: #515154;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+#lastDiv p>a:hover{
+  text-decoration: underline;
+}

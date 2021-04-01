@@ -1,0 +1,20 @@
+/* body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+    p {
+        color: white;
+    width: 230px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    background-color: red;} */
+
+    div {
+        background-color: #eee;
+        width: 200px;
+        height: 50px;
+        border: 1px dotted black;
+        overflow: auto;
+        overflow-x: auto;
+      }
